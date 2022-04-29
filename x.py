@@ -3,7 +3,7 @@
  Aarón Mejia Ortiz
  18.2.2020
 """
-
+# asd b
 def getInput(lines = []):
   """ 
     Gets input from file input. Returns list of lines from input file
