@@ -1,0 +1,16 @@
+from que import Queue , Double_Ended
+
+a = Double_Ended()
+a.add_last(5)
+a.add_first(3)
+a.add_first(7)
+print(a.first())
+a.delete_last()
+print(a.lenn())
+a.delete_last()
+a.delete_last()
+a.add_first(6)
+print(a.last())
+a.add_first(8)
+print(a.is_empty())
+print(a.last())
